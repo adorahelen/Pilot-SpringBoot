@@ -31,4 +31,9 @@
 - Hamcrest : 표현식을 이해하기 쉽게 만드는데 사용되는 Matcher 라이브러리
 - Mockito : 테스트에 사용될 가짜 객체인 목 객체를 만들고, 관리하고, 검증할 수 있게 지원하는 테스트 프레임워크
 - JSONassert : Json용 어설션 라이브러리
-- JsonPath : Json데이터에서 특정 데이터를 선택하고 검색하기 위한 라이브러리 
+- JsonPath : Json데이터에서 특정 데이터를 선택하고 검색하기 위한 라이브러리
+
+## 아키텍처
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/c81732b9-f7ed-4ba3-8b7e-0be4248895bf">
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/dd032871-f7c7-4a56-af02-e037bb52d19a">
+
