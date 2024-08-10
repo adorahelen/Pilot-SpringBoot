@@ -7,13 +7,15 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 
-@NoArgsConstructor(access = AccessLevel.PROTECTED)
+@NoArgsConstructor(access = AccessLevel.PROTECTED) // 기본 생성자
 @AllArgsConstructor
 @Getter
-@Entity
+@Entity // 엔티티로 지정
+
+
 public class Member {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id // 아이디를 기본키로 지정
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // 기본키를 자동으로 1씩 증가
 
     // Mapping of DB table in id&name Column
     @Column(name = "id", updatable = false)
